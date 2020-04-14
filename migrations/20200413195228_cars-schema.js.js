@@ -1,3 +1,5 @@
+//Using knex migrations, design and write a schema for the cars table using the specifications below.
+
 
 exports.up = function (knex) {
   return knex.schema.createTable('cars', tbl => {
